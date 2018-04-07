@@ -1,0 +1,37 @@
+Parameters: {}
+    ResourceRecordSets:
+    - 
+        ResourceRecords:
+            - 
+                Value: ns-500.awsdns-62.com.
+            - 
+                Value: ns-708.awsdns-24.net.
+            - 
+                Value: ns-1038.awsdns-01.org.
+            - 
+                Value: ns-1691.awsdns-19.co.uk.
+        TTL: 172800
+        Name: omci.net.au.
+        Type: NS
+    - 
+        ResourceRecords:
+            - 
+                Value: ns-500.awsdns-62.com. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
+        TTL: 900
+        Name: omci.net.au.
+        Type: SOA
+    - 
+        ResourceRecords:
+            - 
+                Value: 119.9.177.196
+        TTL: 86400
+        Name: 758257-pr-pg01.omci.net.au.
+        Type: A
+    - 
+        ResourceRecords:
+            - 
+                Value: 119.9.177.198
+        TTL: 86400
+        Name: 758258-pr-pg02.omci.net.au.
+        Type: A
+

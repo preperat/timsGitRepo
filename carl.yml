@@ -1,0 +1,25 @@
+Resources:
+  OmciNetAu:
+    Type: 'AWS::Route53::HostedZone'
+    Properties:
+      Name: "omci.net.au"
+
+  Server1Record:
+    Type: 'AWS::Route53::RecordSet'
+    Properties:
+      HostedZoneName: !Ref OmciNetAu
+      Name: "server-a"
+      Type: A
+      TTL: '900'
+      ResourceRecords:
+        - "101.203.9.20"
+
+  Server2Record:
+    Type: 'AWS::Route53::RecordSet'
+    Properties:
+      HostedZoneName: !Ref OmciNetAu
+      Name: "server-b"
+      Type: A
+      TTL: '900'
+      ResourceRecords:
+        - "123.32.2.21"

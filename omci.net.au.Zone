@@ -1,0 +1,56 @@
+;Configuration for DNS Zone omci.net.au
+
+;-----;omci.net.au;
+omci.net.au. 300 IN SOA ns.rackspace.com. hostmaster.rackspace.com. (
+1522815151
+3600
+300
+1814400
+300
+)
+758264-PR1-WS01.omci.net.au. 86400 IN A 119.9.177.192
+758257-PR-PG01.omci.net.au. 86400 IN A 119.9.177.196
+758258-PR-PG02.omci.net.au. 86400 IN A 119.9.177.198
+758266-PR1-SM01.omci.net.au. 86400 IN A 119.9.177.200
+758269-PR1-CP01.omci.net.au. 86400 IN A 119.9.177.201
+758270-SA-WS01.omci.net.au. 86400 IN A 119.9.177.193
+758271-PR2-SM01.omci.net.au. 86400 IN A 119.9.177.202
+758272-PR2-CP01.omci.net.au. 86400 IN A 119.9.177.203
+758273-PR-MO01.omci.net.au. 86400 IN A 119.9.177.204
+758274-PR-MO02.omci.net.au. 86400 IN A 119.9.177.205
+758275-PR2-WS01.omci.net.au. 86400 IN A 119.9.177.194
+758276-SU-SM01.omci.net.au. 86400 IN A 119.9.177.209
+758277-SU-CP01.omci.net.au. 86400 IN A 119.9.177.211
+758278-SU-MO01.omci.net.au. 86400 IN A 119.9.177.210
+758279-SU-PG01.omci.net.au. 86400 IN A 119.9.177.196
+758280-SU-WS01.omci.net.au. 86400 IN A 119.9.177.195
+758281-SA-SM01.omci.net.au. 86400 IN A 119.9.177.213
+758283-SA-CP01.omci.net.au. 86400 IN A 119.9.177.214
+758284-SA-MO01.omci.net.au. 86400 IN A 119.9.177.215
+758285-SA-PG01.omci.net.au. 86400 IN A 119.9.177.216
+758288-postgres1.omci.net.au. 86400 IN A 119.9.177.206
+758290-fileshare1.omci.net.au. 86400 IN A 119.9.177.207
+758292-ntclus.omci.net.au. 86400 IN A 119.9.177.208
+763731-fileshare2.omci.net.au. 86400 IN A 119.9.177.197
+770631-pgdata1.omci.net.au. 86400 IN A 119.9.147.92
+770632-pgdata2.omci.net.au. 86400 IN A 119.9.147.93
+770633-pgdata3.omci.net.au. 86400 IN A 119.9.147.94
+758253-fw1.omci.net.au. 86400 IN A 119.9.37.53
+758254-fw2.omci.net.au. 86400 IN A 119.9.37.54
+758255-lbal1.omci.net.au. 86400 IN A 119.9.177.152
+758256-lbal2.omci.net.au. 86400 IN A 119.9.177.153
+758259-hyp1.omci.net.au. 86400 IN A 119.9.177.156
+758260-hyp2.omci.net.au. 86400 IN A 119.9.177.157
+758261-hyp3.omci.net.au. 86400 IN A 119.9.177.158
+vpn1.omci.net.au. 86400 IN A 119.9.37.53
+mail.omci.net.au. 86400 IN A 150.207.153.210
+vpn.omci.net.au. 86400 IN A 119.9.37.53
+892544-PR2-BDR.omci.net.au. 86400 IN A 119.9.177.222
+892543-PR1-BDR.omci.net.au. 86400 IN A 119.9.177.221
+939307-PR-ENV3.omci.net.au. 86400 IN A 119.9.152.97
+omci.net.au. 86400 IN NS ns.rackspace.com.
+omci.net.au. 86400 IN NS ns2.rackspace.com.
+omci.net.au. 86400 IN MX 10 mail.omci.com.au.
+_autodiscover._tcp.omci.net.au. 86400 IN SRV 0 0 443 postoffice.omci.net.au.
+autodiscover.omci.net.au. 86400 IN CNAME postoffice.omci.net.au.
+
